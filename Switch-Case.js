@@ -5,8 +5,7 @@ roca, el juego es un empate si ambos jugadores eligen la misma opción. Elaborar
 un programa para que determine cual jugador gana, la salida debe mostrarse por
 la función de la siguiente forma: "T-R Roca rompe tijeras gana el jugador 2".
 
-Implementa este programa usando sentencias SWITCH-CASE.
-Presentarás tu práctica en una rama adicional en tu repositorio de github.*/
+Implementa este programa usando sentencias SWITCH-CASE.*/
 
 function jugarRocaPapelTijeras(jugador1, jugador2) {
   let resultado = "";
