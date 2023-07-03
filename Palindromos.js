@@ -1,18 +1,15 @@
 /* En base a lo visto en la clase de hoy deberás completar tu ejercicio en donde lea una frase y verificar si es 
-palíndromo, además imprimir la primera letra con la que comienza la frase/palabra y la letra ubicada a la mitad.
-
-Como se ha mencionado, la forma de entrega es individual, pero el trabajo es en equipo. Para ello deberás entregar 
-por este medio el link de tu repositorio en una rama independiente (deberá ser una rama por cada ejercicio)*/
+palíndromo, además imprimir la primera letra con la que comienza la frase/palabra y la letra ubicada a la mitad.*/
 
 function esPalindromo(frase) {
   frase = frase.replace(/\s/g, '').toLowerCase();
 
   for (let i = 0; i < frase.length / 2; i++) {
     if (frase[i] !== frase[frase.length - 1 - i]) {
-      return false; // No es un palíndromo
+      return false; // Falso; palíndromo
     }
   }
-  return true; // Es un palíndromo
+  return true; // Verdadero; palíndromo
 }
 
 function obtenerPrimeraLetra(frase) {
