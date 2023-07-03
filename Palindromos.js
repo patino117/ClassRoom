@@ -28,3 +28,16 @@ const letraEnLaMitad = obtenerLetraEnLaMitad(frase);
 console.log(`Palíndromo: ${esPalindromo(frase)}`);
 console.log(`Primera letra: ${primeraLetra}`);
 console.log(`Letra en la mitad: ${letraEnLaMitad}`);
+
+/*Ejemplo 1:
+Frase: "Anita lava la tina"
+Resultado: Es un palíndromo
+
+Explicación: Al leer la frase de izquierda a derecha y de derecha a izquierda, se obtiene la misma secuencia de letras, 
+ignorando los espacios en blanco y considerando mayúsculas y minúsculas.
+
+Ejemplo 2:
+Frase: "Hola mundo"
+Resultado: No es un palíndromo
+
+Explicación: Al leer la frase de izquierda a derecha y de derecha a izquierda, se obtienen secuencias de letras diferentes, por lo que no es un palíndromo.*/
