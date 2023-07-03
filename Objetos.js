@@ -1,12 +1,13 @@
 /*Realiza una práctica donde intentes acceder, usando notación corchetes, a las propiedades de un objeto sin 
 utilizar comillas, y concluye porque si fue posible o no acceder a ellas.*/
 
-const persona = {
-  nombre: 'Juan',
-  edad: 30,
-  'lugar de nacimiento': 'México'
+const objeto = {
+  propiedad1: "Hello Buffalo",
+  propiedad2: "Monster",
+  propiedad3: "La Sierra",
 };
 
-console.log(persona[nombre]); // Accediendo a la propiedad "nombre" sin comillas
-console.log(persona[edad]); // Accediendo a la propiedad "edad" sin comillas
-console.log(persona['lugar de nacimiento']); // Accediendo a la propiedad "lugar de nacimiento" con comillas
+const propiedad = "propiedad3"; /*tenemos tres propiedades las cuales poseen una notacion las cuales podemos cambiar
+el resultado cambiando la propiedad*/
+
+console.log(objeto[propiedad]);
