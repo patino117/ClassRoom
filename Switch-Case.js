@@ -68,7 +68,7 @@ function jugarRocaPapelTijeras(jugador1, jugador2) {
   return resultado;
 }
 
-// Ejemplo de uso
+// Uso
 const jugador1 = prompt("Jugador 1, elige 'R' (roca), 'P' (papel) o 'T' (tijeras):");
 const jugador2 = prompt("Jugador 2, elige 'R' (roca), 'P' (papel) o 'T' (tijeras):");
 
